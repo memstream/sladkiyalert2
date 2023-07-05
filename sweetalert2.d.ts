@@ -1,4 +1,4 @@
-declare module 'sweetalert2' {
+declare module '@memstream/sladkiyalert' {
   /**
    * A namespace inside the default function, containing utility function for controlling the currently-displayed popup.
    *

@@ -1,9 +1,9 @@
 {
-  "name": "sweetalert2",
+  "name": "@memstream/sladkiyalert",
   "version": "11.7.12",
-  "repository": "sweetalert2/sweetalert2",
-  "homepage": "https://sweetalert2.github.io/",
-  "description": "A beautiful, responsive, customizable and accessible (WAI-ARIA) replacement for JavaScript's popup boxes, supported fork of sweetalert",
+  "repository": "memstream/sladkiyalert2",
+  "homepage": "https://github.com/memstream/sladkiyalert2",
+  "description": "SwetAlert2 fork without politics",
   "main": "dist/sweetalert2.all.js",
   "browser": "dist/sweetalert2.all.js",
   "module": "dist/sweetalert2.all.js",
