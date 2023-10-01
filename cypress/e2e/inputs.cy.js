@@ -371,6 +371,41 @@ describe('Inputs', () => {
     })
   })
 
+  it('popup should keep the custom width when textarea value is a promise', (done) => {
+    SwalWithoutAnimation.fire({
+      input: 'textarea',
+      width: 600,
+      inputValue: new Promise((resolve) => {
+        setTimeout(() => {
+          resolve('foo')
+        }, 10)
+      }),
+    })
+    setTimeout(() => {
+      expect(Swal.getInput().value).to.equal('foo')
+      expect(Swal.getPopup().style.width).to.equal('600px')
+      done()
+    }, 20)
+  })
+
+  it('should not fail if textarea value is a promise and popup is closed before the promise is resolved', (done) => {
+    SwalWithoutAnimation.fire({
+      input: 'textarea',
+      width: 600,
+      inputValue: new Promise((resolve) => {
+        setTimeout(() => {
+          resolve('foo')
+        }, 10)
+      }),
+      didOpen: () => {
+        Swal.close()
+      },
+    })
+    setTimeout(() => {
+      done()
+    }, 20)
+  })
+
   it('returnInputValueOnDeny: true should pass the input value as result.value', (done) => {
     SwalWithoutAnimation.fire({
       input: 'text',
@@ -519,9 +554,10 @@ describe('Validation', () => {
   it('validation message with object containing toPromise', (done) => {
     SwalWithoutAnimation.fire({
       input: 'text',
-      inputValidator: (value) => ({
-        toPromise: () => Promise.resolve(!value && 'no falsy values'),
+      inputValidator: (value, validationMessage) => ({
+        toPromise: () => Promise.resolve(!value && validationMessage),
       }),
+      validationMessage: 'no falsy values',
     })
 
     setTimeout(() => {

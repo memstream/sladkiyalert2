@@ -1,3 +1,138 @@
+## [11.7.31](https://github.com/sweetalert2/sweetalert2/compare/v11.7.30...v11.7.31) (2023-09-26)
+
+
+### Bug Fixes
+
+* **types:** make bindClickHandler()'s param optional ([de5f162](https://github.com/sweetalert2/sweetalert2/commit/de5f1620773798e8416089cfcea207c42aa040f5))
+
+## [11.7.30](https://github.com/sweetalert2/sweetalert2/compare/v11.7.29...v11.7.30) (2023-09-26)
+
+
+### Bug Fixes
+
+* **types:** add missing bindClickHandler() ([59a9613](https://github.com/sweetalert2/sweetalert2/commit/59a96132055e04e3e7085ffcdbe51590fba84c94))
+
+## [11.7.29](https://github.com/sweetalert2/sweetalert2/compare/v11.7.28...v11.7.29) (2023-09-25)
+
+
+### Bug Fixes
+
+* **types:** allow imageUrl to be null ([6e7915f](https://github.com/sweetalert2/sweetalert2/commit/6e7915ff75912e24ccb3a7fca1bc215c51f318b1))
+* **types:** allow returning false from inputValidator ([a3becd9](https://github.com/sweetalert2/sweetalert2/commit/a3becd99d1449c183b498f3015eb5c5bdd38ba44))
+* **types:** allow target to be null ([82a40d5](https://github.com/sweetalert2/sweetalert2/commit/82a40d5e961f1b76773c5bd773525e41de15a172))
+
+## [11.7.28](https://github.com/sweetalert2/sweetalert2/compare/v11.7.27...v11.7.28) (2023-09-14)
+
+
+### Bug Fixes
+
+* strict types keydown-handler.js ([1e39486](https://github.com/sweetalert2/sweetalert2/commit/1e394868bca417f9f2865d6b0b3ee138fb04bdc9))
+
+## [11.7.27](https://github.com/sweetalert2/sweetalert2/compare/v11.7.26...v11.7.27) (2023-08-20)
+
+
+### Bug Fixes
+
+* **types:** inputValue type ([671fbc2](https://github.com/sweetalert2/sweetalert2/commit/671fbc22cc8ca45a7e60d65ab9ed8f3b3a9bce85))
+
+## [11.7.26](https://github.com/sweetalert2/sweetalert2/compare/v11.7.25...v11.7.26) (2023-08-19)
+
+
+### Bug Fixes
+
+* refactor scrollbar files ([ae88c5e](https://github.com/sweetalert2/sweetalert2/commit/ae88c5e44598336c80baa862b746308554625510)), closes [#2663](https://github.com/sweetalert2/sweetalert2/issues/2663)
+
+## [11.7.25](https://github.com/sweetalert2/sweetalert2/compare/v11.7.24...v11.7.25) (2023-08-18)
+
+
+### Bug Fixes
+
+* always adjust padding right when body has overflow-y: scroll ([#2665](https://github.com/sweetalert2/sweetalert2/issues/2665)) ([b0ec753](https://github.com/sweetalert2/sweetalert2/commit/b0ec7538a9100bd204e13ef1e89009c097143902))
+
+## [11.7.24](https://github.com/sweetalert2/sweetalert2/compare/v11.7.23...v11.7.24) (2023-08-18)
+
+
+### Bug Fixes
+
+* do not adjust padding right when body has overflow-y: scroll ([#2664](https://github.com/sweetalert2/sweetalert2/issues/2664)) ([4d86677](https://github.com/sweetalert2/sweetalert2/commit/4d86677e1ea634735778bda300b0a9c5c7df9b08))
+
+## [11.7.23](https://github.com/sweetalert2/sweetalert2/compare/v11.7.22...v11.7.23) (2023-08-15)
+
+
+### Bug Fixes
+
+* change footer's display flex -> block ([#2661](https://github.com/sweetalert2/sweetalert2/issues/2661)) ([c515e76](https://github.com/sweetalert2/sweetalert2/commit/c515e7664b3904a54aab79a43e58802e81f8bca2))
+
+## [11.7.22](https://github.com/sweetalert2/sweetalert2/compare/v11.7.21...v11.7.22) (2023-08-10)
+
+
+### Bug Fixes
+
+* **types:** rm generic from SweetAlertOptions to make it easier to read ([c3bf4cc](https://github.com/sweetalert2/sweetalert2/commit/c3bf4cc17c5d14d9f65393a939137330865e677a))
+
+## [11.7.21](https://github.com/sweetalert2/sweetalert2/compare/v11.7.20...v11.7.21) (2023-08-09)
+
+
+### Bug Fixes
+
+* **types:** add `SyncOrAsync` to `preConfirm` definition ([#2658](https://github.com/sweetalert2/sweetalert2/issues/2658)) ([98c3b5f](https://github.com/sweetalert2/sweetalert2/commit/98c3b5fb8141b286d51e6dde9b368f2dfd441a97))
+
+## [11.7.20](https://github.com/sweetalert2/sweetalert2/compare/v11.7.19...v11.7.20) (2023-07-23)
+
+
+### Bug Fixes
+
+* inputValidator types ([#2656](https://github.com/sweetalert2/sweetalert2/issues/2656)) ([4dc7db8](https://github.com/sweetalert2/sweetalert2/commit/4dc7db84ac2739d71c261291f4d439414f2e905a))
+
+## [11.7.19](https://github.com/sweetalert2/sweetalert2/compare/v11.7.18...v11.7.19) (2023-07-22)
+
+
+### Bug Fixes
+
+* rended iconHTML with icon: undefined ([83e8fe2](https://github.com/sweetalert2/sweetalert2/commit/83e8fe2b460ed8b63baae6be0348753a33b214c1))
+
+## [11.7.18](https://github.com/sweetalert2/sweetalert2/compare/v11.7.17...v11.7.18) (2023-07-15)
+
+
+### Bug Fixes
+
+* check if texarea is still in document ([#2655](https://github.com/sweetalert2/sweetalert2/issues/2655)) ([6277fda](https://github.com/sweetalert2/sweetalert2/commit/6277fda672df3d14077d8d80fcb9c4630cb8e858))
+
+## [11.7.17](https://github.com/sweetalert2/sweetalert2/compare/v11.7.16...v11.7.17) (2023-07-15)
+
+
+### Bug Fixes
+
+* when resizing textarea take params.width into consideration ([#2654](https://github.com/sweetalert2/sweetalert2/issues/2654)) ([98b34a1](https://github.com/sweetalert2/sweetalert2/commit/98b34a1b76c9c4031d9d14a0d2938bfc40968d17))
+
+## [11.7.16](https://github.com/sweetalert2/sweetalert2/compare/v11.7.15...v11.7.16) (2023-07-11)
+
+
+### Bug Fixes
+
+* avoid using navigator.userAgent and navigator.platform ([#2650](https://github.com/sweetalert2/sweetalert2/issues/2650)) ([3039432](https://github.com/sweetalert2/sweetalert2/commit/3039432e9e44b68ca523c04aeb8286ec0b5d0d61))
+
+## [11.7.15](https://github.com/sweetalert2/sweetalert2/compare/v11.7.14...v11.7.15) (2023-07-11)
+
+
+### Bug Fixes
+
+* rm addBottomPaddingForTallPopups, undo [#1993](https://github.com/sweetalert2/sweetalert2/issues/1993) ([#2649](https://github.com/sweetalert2/sweetalert2/issues/2649)) ([40752da](https://github.com/sweetalert2/sweetalert2/commit/40752da1924a88eb1eca0591b68d413fff45217b))
+
+## [11.7.14](https://github.com/sweetalert2/sweetalert2/compare/v11.7.13...v11.7.14) (2023-07-11)
+
+
+### Bug Fixes
+
+* id attr on checkbox ([#2648](https://github.com/sweetalert2/sweetalert2/issues/2648)) ([f90064b](https://github.com/sweetalert2/sweetalert2/commit/f90064bebb5d6867559848a1a90969899d8e84a8))
+
+## [11.7.13](https://github.com/sweetalert2/sweetalert2/compare/v11.7.12...v11.7.13) (2023-07-11)
+
+
+### Bug Fixes
+
+* Chrome audit violations ([#2647](https://github.com/sweetalert2/sweetalert2/issues/2647)) ([07e1e41](https://github.com/sweetalert2/sweetalert2/commit/07e1e41175c942a1fafc4c79148c927941f127a4))
+
 ## [11.7.12](https://github.com/sweetalert2/sweetalert2/compare/v11.7.11...v11.7.12) (2023-06-09)
 
 
